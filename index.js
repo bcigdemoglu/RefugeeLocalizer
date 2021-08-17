@@ -1,10 +1,10 @@
-var accountSid = 'ACee3f3cbc245a0e9c520cdab9ef265676'; // Your Account SID from www.twilio.com/console
-var authToken = '5915e4ccc30cfb6dca5ffd49ced9fde1';   // Your Auth Token from www.twilio.com/console
+var accountSid = "REPLACEWITHACCID"; // Your Account SID from www.twilio.com/console
+var authToken = 'REPLACEWITHAUTHTOKEN';   // Your Auth Token from www.twilio.com/console
 var twilio = require('twilio');
 var express = require('express');
 var http = require('http');
 var GoogleMapsAPI = require('googlemaps');
-var publicConfig = { key: 'AIzaSyAmzgHXb1rBBlYsPrNI_YtisuhmolG1rqc' };
+var publicConfig = { key: 'REPLACEWITHAPIKEY' };
 var dms2dec = require('dms2dec');
 var gmAPI = new GoogleMapsAPI(publicConfig);
 var $ = new require('underscore');
