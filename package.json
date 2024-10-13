@@ -12,7 +12,7 @@
   "dependencies": {
     "dms2dec": "^1.1.0",
     "ejs": "3.1.6",
-    "express": "4.16.0",
+    "express": "4.21.1",
     "googlemaps": "^1.11.1",
     "twilio": "^3.9.0",
     "underscore": "*"
